@@ -3,22 +3,24 @@
 Aim of this project is to present the GDP of every state and union territory in India respective to the state name, its population and sex ratio
 However the required data is divided as it is available on different weblinks 
 
-This project is focused towards extracting data from web from two different links\n
-Link 1 : https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_population\n
-Link 2 : https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP
+This project is focused towards extracting data from web from two different links:
 
-Link 1 has the information about State and union territory names, population and sex ratio\n
+-Link 1 : https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_population
+-Link 2 : https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP
+
+Link 1 has the information about State and union territory names, population and sex ratio
 Link 2 has the information about State and union territory names and GDP
 
 The common attribute that both the links have is State and union territory names, according to which all the data is arranged respectively 
 and written into CSV file.
 
 Steps performed:
-	1. Extracting the data from webpages
-	2. Converting data from tables into pandas dataframe
-	3. Cleaning the columns as there was lot of hidden information in the data
-	4. Arranging the data respective to particular states
-	5. Writing the data to CSV file
+
+1. Extracting the data from webpages
+2. Converting data from tables into pandas dataframe
+3. Cleaning the columns as there was lot of hidden information in the data
+4. Arranging the data respective to particular states
+5. Writing the data to CSV file
 	
 ## Step by Step
 
