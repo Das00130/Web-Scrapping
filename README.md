@@ -4,10 +4,10 @@ Aim of this project is to present the GDP of every state and union territory in 
 However the required data is divided as it is available on different weblinks 
 
 This project is focused towards extracting data from web from two different links:
-1.Link 1 : https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_population
+Link 1 : https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_population
 		   It has the information about State and union territory names, population and sex ratio
 
-2.Link 2 : https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP
+Link 2 : https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP
 		   It has the information about State and union territory names and GDP
 
 The common attribute that both the links have is State and union territory names, according to which all the data is arranged respectively 
