@@ -1,5 +1,7 @@
 
-Aim of this project is to present the GDP of every state in India respective to the state name, its population and sex ratio. The required data is divided as it is available on different urls.
+Aim of this project is to build a dataframe with the GDP of every state in India respective to the state name, its population and sex ratio. 
+
+It will then be possible to plot the data and study possible correlations.
 
 ## Steps performed:
 
@@ -97,7 +99,7 @@ data["population"] = data["population"].astype(int) # Converting the column type
 data["Nominal_GDP_INR"] = data["Nominal_GDP_INR"].astype(float) # Converting the column type
 ```
 
-#### Merged dataframe
+#### Result: Merged dataframe
 ![png](images/big_df.PNG)
 
 ```python
@@ -142,16 +144,16 @@ plt.xticks(rotation=30)
 plt.show()
 ```
 
-#### Plots of the highest GDP and highest population
+#### Output: Plots of the highest GDP and highest population
 ![png](images/plots.PNG)
 
 
-''' Finding the co-relation between the columns '''
 
 ```python
+''' Finding the co-relation between the columns '''
 d=data.corr()
 print ("The confusion matrix: \n",d)
 ```
 
-#### Confusion matrix
+#### Output: Confusion matrix
 ![png](images/matrix.PNG)
