@@ -85,7 +85,7 @@ df2['Nominal_GDP_INR']=df2['Nominal_GDP_INR'].str.replace(u"lakh",u"00000")
 statewise_GDP=df2[["state_or_UT","Nominal_GDP_INR"]]
 
 
-''' Merge the two dataframes '''
+''' Merging the two dataframes '''
 
 data=pd.merge(statewise_population, statewise_GDP, on='state_or_UT', how='inner')
 
@@ -126,7 +126,7 @@ plt.tick_params(axis="both", which="both", bottom="off", top="off",
 plt.xticks(rotation=30)
 plt.show()
 
-# PLotting the states with the highest population
+# Plotting the states with the highest population
 largest_gdp = plot_data["population"].nlargest(10)
 ax1 = largest_gdp.plot(kind='bar',y="Nominal_GDP_INR",title ="Top 10 States wih highest Population", figsize=(8, 4),fontsize=12,facecolor='grey')
 ax1.set_xlabel("", fontsize=12)
